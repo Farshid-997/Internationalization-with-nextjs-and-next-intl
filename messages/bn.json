@@ -1,0 +1,38 @@
+{
+    "Header": {
+      "title": "কিভাবে কাজ করে",
+      "job": "জব",
+      "course": "কোর্স",
+      "contact": "যোগাযোগ",
+      "dashboard": "ড্যাশবোর্ড",
+      "logout": "লগ আউট",
+      "login": "লগিন"
+    },
+  
+    "HeroSection": {
+      "job": "জব",
+      "training": "ট্রেনিং",
+      "from": "থেকে",
+      "recruitment": "রিক্রুটমেন্ট",
+      "all": "সবই",
+      "are": "এখন",
+      "one": "এক",
+      "platform": "প্লাটফর্মে",
+      "learn": "আমি শিখতে চাই",
+      "lookjob": "আমি জব খুঁজছি",
+      "lookemployee": "আমি কর্মী খুঁজছি"
+    },
+  
+    "CompanyLogoSection": {
+      "partners": "আমাদের পার্টনার্স সমূহ"
+    },
+    "NotFoundPage": {
+      "title": "Halaman Tidak Ditemukan",
+      "description": "Ups! Sepertinya Anda menemukan halaman yang tidak ada. Jangan khawatir, sihir internasionalisasi kami masih bekerja keras di bagian lain aplikasi. Silakan kembali untuk menjelajahi lebih lanjut!"
+    },
+  
+    "Footer": {
+      "copyright": "© 2024 Aplikasi Anda. Hak cipta dilindungi."
+    }
+  }
+  
