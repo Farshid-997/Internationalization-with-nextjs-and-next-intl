@@ -1,9 +1,19 @@
 
+// import CompanySection from "@/Components/CompanySection/companySection";
+
+
+
 
 export default function Home() {
+
+ 
+
+  
   return (
-    <main>
-     <h1>New</h1>
-    </main>
+    <>
+    {/* <CompanySection /> */}
+
+    <p>fnjn</p>
+    </>
   );
 }

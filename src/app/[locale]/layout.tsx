@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { NextIntlClientProvider, useMessages } from "next-intl";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,13 +21,18 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children, params: { locale } }: RootLayoutProps) {
 
+  const messages = useMessages();
 
+  console.log("message",messages)
   return (
   
-      <html lang={locale}>
-        <head />
-        <body> {children}</body>
-      </html>
+    <html lang={locale}>
+    <body>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        {children}
+      </NextIntlClientProvider>
+    </body>
+  </html>
    
   )
 }
