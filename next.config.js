@@ -1,15 +1,4 @@
-const createNextIntlPlugin = require("next-intl/plugin")
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
 
-const withNextIntl = createNextIntlPlugin()
-
-module.exports = withNextIntl({
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
-    ],
-  },
-  
-})
+module.exports = nextConfig
